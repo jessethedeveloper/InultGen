@@ -12,7 +12,7 @@ void genInsult()
 
     const char* random;
     srand(time(NULL));
-    random = insults[rand() % 3];
+    random = insults[rand() % 3]; // Add 1 to the 3 for every 1 insult you add
     system("cls");
     printf("Insult: %s\n\n", random);
     printf("Press ENTER to generate another insult...");
